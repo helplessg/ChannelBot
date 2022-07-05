@@ -48,15 +48,19 @@ class Data:
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**✧✧✧ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ✧✧✧** 
 
 📍 **ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ ᴀᴜᴛᴏᴍᴀᴛɪᴏɴ ʙᴏᴛ**\n**ʙʏ @robo_glitch**
 
-📞 **ᴄᴏɴᴛᴀᴄᴛ** : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](http://t.me/GlitchAssistantBot)**
+📞 **ᴄᴏɴᴛᴀᴄᴛ** : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](http://t.me/GlitchAssistantBot)** **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/Chat_With_Mr_Devil_bot)**
 
 📢 **ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ** ❤ : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/hddubhub4u)**
 
-📮 **sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ** 📮 : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/dubbedweb)**
+📮 **sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ** 📮 : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/hddubhub4uhelp)**
+
+🎥 **ᴍᴏᴠɪᴇ's ɢʀᴏᴜᴘ** : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/dubbedweb)**
+
+🔮 **ᴏᴛʜᴇʀ ʙᴏᴛs** : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/futurebackups)**
 
 😈 **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : **@the_glitchs**
     """
