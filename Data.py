@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-🌹 Hey {}
+🌹 **Hey** <b>{}</b>
 
-Welcome to {}
+**Welcome to** <b>{}</b>
 
 **ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴄʜᴀɴɴᴇʟs ᴡɪᴛʜ ᴛᴏɴs ᴏꜰ ꜰᴇᴀᴛᴜʀᴇs. ᴜsᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !**
 
@@ -50,13 +50,13 @@ To add a channel use keyboard button 'Add Channels' or alternatively for ease, u
     ABOUT = """
 **About This Bot** 
 
-📍 A telegram channel automation bot by @robo_glitch
+📍 **ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ ᴀᴜᴛᴏᴍᴀᴛɪᴏɴ ʙᴏᴛ**\n**ʙʏ @robo_glitch**
 
-📞 **ᴄᴏɴᴛᴀᴄᴛ** : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](http://t.me/GlitchAssistantBot)
+📞 **ᴄᴏɴᴛᴀᴄᴛ** : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](http://t.me/GlitchAssistantBot)**
 
-📢 **ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ** ❤ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/hddubhub4u)
+📢 **ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ** ❤ : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/hddubhub4u)**
 
-📮 **sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ** 📮 : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/dubbedweb)
+📮 **sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ** 📮 : **[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/dubbedweb)**
 
 😈 **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : **@the_glitchs**
     """
