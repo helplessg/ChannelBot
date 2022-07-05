@@ -31,8 +31,8 @@ class Data:
 
     # Help Message
     HELP = """
-Everything is self explanatory after you add a channel.
-To add a channel use keyboard button 'Add Channels' or alternatively for ease, use `/add` command
+**ᴇᴠᴇʀʏᴛʜɪɴɢ ɪs sᴇʟꜰ ᴇxᴘʟᴀɴᴀᴛᴏʀʏ ᴀꜰᴛᴇʀ ʏᴏᴜ ᴀᴅᴅ ᴀ ᴄʜᴀɴɴᴇʟ.
+ᴛᴏ ᴀᴅᴅ ᴀ ᴄʜᴀɴɴᴇʟ ᴜsᴇ ᴋᴇʏʙᴏᴀʀᴅ ʙᴜᴛᴛᴏɴ 'ᴀᴅᴅ ᴄʜᴀɴɴᴇʟs' ᴏʀ ᴀʟᴛᴇʀɴᴀᴛɪᴠᴇʟʏ ꜰᴏʀ ᴇᴀsᴇ, ᴜsᴇ `/add` ᴄᴏᴍᴍᴀɴᴅ 🔧**
 
 🛠 **Available Commands** 🛠
 
