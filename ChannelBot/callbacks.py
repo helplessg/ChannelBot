@@ -96,13 +96,13 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                     buttons = [
                         [InlineKeyboardButton('Change Caption', callback_data=f'add+{change}+{channel_id}')],
                         [InlineKeyboardButton('Remove Caption', callback_data=f'remove+{change}+{channel_id}')],
-                        [InlineKeyboardButton('<-- Back to Channel Settings', callback_data=f'home+{channel_id}')]
+                        [InlineKeyboardButton('🏃 Back to Channel Settings', callback_data=f'home+{channel_id}')]
                     ]
                     await callback_query.edit_message_text(f'Current Caption is : \n\n{caption} \n\nUse below buttons to change or remove it.', reply_markup=InlineKeyboardMarkup(buttons))
                 else:
                     buttons = [
                         [InlineKeyboardButton('Add Caption', callback_data=f'add+{change}+{channel_id}')],
-                        [InlineKeyboardButton('<-- Back to Channel Settings', callback_data=f'home+{channel_id}')]
+                        [InlineKeyboardButton('🏃 Back to Channel Settings', callback_data=f'home+{channel_id}')]
                     ]
                     await callback_query.edit_message_text(f'No Caption set \n\nUse below button to add it.', reply_markup=InlineKeyboardMarkup(buttons))
             elif change == 'buttons':
@@ -110,13 +110,13 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                     _buttons = [
                         [InlineKeyboardButton('Change URL Buttons', callback_data=f'add+{change}+{channel_id}')],
                         [InlineKeyboardButton('Remove URL Buttons', callback_data=f'remove+{change}+{channel_id}')],
-                        [InlineKeyboardButton('<-- Back to Channel Settings', callback_data=f'home+{channel_id}')]
+                        [InlineKeyboardButton('🏃 Back to Channel Settings', callback_data=f'home+{channel_id}')]
                     ]
                     await callback_query.edit_message_text(f'Current Buttons are : \n\n`{buttons}` \n\nUse below buttons to change or remove it.', reply_markup=InlineKeyboardMarkup(_buttons))
                 else:
                     _buttons = [
                         [InlineKeyboardButton('Add Buttons', callback_data=f'add+{change}+{channel_id}')],
-                        [InlineKeyboardButton('<-- Back to Channel Settings', callback_data=f'home+{channel_id}')]
+                        [InlineKeyboardButton('🏃 Back to Channel Settings', callback_data=f'home+{channel_id}')]
                     ]
                     await callback_query.edit_message_text(f'No Buttons set \n\nUse below button to add them.', reply_markup=InlineKeyboardMarkup(_buttons))
             elif change == 'position':
@@ -153,13 +153,13 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                         [InlineKeyboardButton('Show Current Sticker', callback_data=f'show+{channel_id}')],
                         [InlineKeyboardButton('Change Sticker', callback_data=f'add+{change}+{channel_id}')],
                         [InlineKeyboardButton('Remove Sticker', callback_data=f'remove+{change}+{channel_id}')],
-                        [InlineKeyboardButton('<-- Back to Channel Settings', callback_data=f'home+{channel_id}')]
+                        [InlineKeyboardButton('🏃 Back to Channel Settings', callback_data=f'home+{channel_id}')]
                     ]
                     await callback_query.edit_message_text(f'A sticker is already set. See it by tapping \'Show Current Sticker\' button \n\nUse below buttons to change or remove it.', reply_markup=InlineKeyboardMarkup(buttons))
                 else:
                     buttons = [
                         [InlineKeyboardButton('Add Sticker', callback_data=f'add+{change}+{channel_id}')],
-                        [InlineKeyboardButton('<-- Back to Channel Settings', callback_data=f'home+{channel_id}')]
+                        [InlineKeyboardButton('🏃 Back to Channel Settings', callback_data=f'home+{channel_id}')]
                     ]
                     await callback_query.edit_message_text(f'No Sticker set \n\nUse below button to add it.', reply_markup=InlineKeyboardMarkup(buttons))
             elif change == 'webpage_preview':
