@@ -8,9 +8,9 @@ class Data:
 
 Welcome to {}
 
-You can use me to manage channels with tons of features. Use below buttons to learn more !
+**ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴄʜᴀɴɴᴇʟs ᴡɪᴛʜ ᴛᴏɴs ᴏꜰ ꜰᴇᴀᴛᴜʀᴇs. ᴜsᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !**
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ ❗ @robo_glitch
+**ᴘᴏᴡᴇʀᴇᴅ ʙʏ ❗** **@robo_glitch**
     """
 
     # Home Button
@@ -20,12 +20,12 @@ You can use me to manage channels with tons of features. Use below buttons to le
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔮ʙᴏᴛ sᴛᴀᴛᴜs ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛs🔮", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🔮ʙᴏᴛ sᴛᴀᴛᴜs ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛs🔮", url="https://t.me/futurebackups")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ❓", callback_data="help"),
             InlineKeyboardButton("😈 ᴀʙᴏᴜᴛ 😈", callback_data="about")
         ],
-        [InlineKeyboardButton("📢 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ❤ ", url="https://t.me/hddubhub4u")],
+        [InlineKeyboardButton("📢 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 💡 ", url="https://t.me/hddubhub4u")],
         [InlineKeyboardButton("📮 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 📮", url="https://t.me/dubbedweb")],
     ]
 
